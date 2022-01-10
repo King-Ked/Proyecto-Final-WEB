@@ -1,0 +1,15 @@
+
+1.-En su PC localize la carpeta "htdocs" usualmente dentro de C:\xampp y copie y pegue la carpeta donde se encuentran el programa.
+2.-Se debe de abrir XAMPP y inicializar los modulos de Apache y MySQL
+3.-En su navegador ingrese la URL "http://localhost/phpmyadmin/", y cree una nueva base de datos llamada EQ4_BD.
+5.-Seleccionamos la opcion de Importar
+6.-Seleccionamos la opcion de subir archivo
+4.-Cargamos el archivo localizado en la carpeta "BD" con nombre "aulavirtual_300122_1228" y  presionamos continuar.
+5.-En su navegador ingrese la URL "http://localhost/EQ4_2CV15_PFW/index.html" esto iniciara la vista de usuario no registrado o principal
+6.-Para entrar al programa se dan las siguientes cuentas, esto para no tener que crear nuevas:
+
+Administrador				Profesor			Alumno
+Usuario: Josue23			Usuario: LauVaz			Usuario: Sara22
+Contraseña: josue23			Contraseña: lau123		Contraseña: sara22
+
+Con esto se puede analizar el completo funcionamiento del programa.

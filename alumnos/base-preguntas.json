@@ -1,0 +1,52 @@
+[
+    {
+        "categoria": "MATEMATICAS",
+        "pregunta": "¿Cual es la Respuesta Correcta?",
+        "respuesta": "5 + 5",
+        "incorrecta1": "1 - 1",
+        "incorrecta2": "15 + 15",
+        "incorrecta3": "7 + 2",
+        "imagen": "../img/10.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "MATEMATICAS",
+        "pregunta": "¿Cual es la Respuesta Correcta?",
+        "respuesta": "25 + 25",
+        "incorrecta1": "49 - 1",
+        "incorrecta2": "15 + 15",
+        "incorrecta3": "10 + 10",
+        "imagen": "../img/50.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "MATEMATICAS",
+        "pregunta": "¿Cual es la Respuesta Correcta?",
+        "respuesta": "20 + 20",
+        "incorrecta1": "15 - 15",
+        "incorrecta2": "10 + 10",
+        "incorrecta3": "15 - 5",
+        "imagen": "../img/40.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "MATEMATICAS",
+        "pregunta": "¿Cual es la Respuesta Correcta?",
+        "respuesta": "15 + 15",
+        "incorrecta1": "10 - 10",
+        "incorrecta2": "25 - 1",
+        "incorrecta3": "3 + 1",
+        "imagen": "../img/30.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "MATEMATICAS",
+        "pregunta": "¿Cual es la Respuesta Correcta?",
+        "respuesta": "10 + 10",
+        "incorrecta1": "3 + 1",
+        "incorrecta2": "10 - 10",
+        "incorrecta3": "25 - 1",
+        "imagen": "../img/20.png",
+        "objectFit": "cover"
+    }
+]

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contacto</title>
+		<meta name="author" content="César Josué Jacinto Serrano"/>
+		<meta name="keywords" content="CSS, Modelo de caja, Box model"/>
+		<meta name="description" content="Vista de usuarios no registrados a la plataforma"/>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="../estilos.css">
+	</head>
+	<body>
+		<div id="principal">
+			<div id="header">
+				<h1>Usuario No Registrado</h1>
+			</div>
+			<div id="nav">
+				<ul class="menu">
+					<li><a href="../index.html">Inicio</a></li>
+					<li><a href="unr_acercade.html">Acerca de...</a></li>
+					<li><a href="preguntasfrecuentes.php">Preguntas frecuentes</a></li>
+					<li><a href="unr_contacto.html">Contacto</a></li>
+				</ul>
+			</div>
+			<div id="contenido">
+				<div class="UNR_acerca">
+					<div class="contenido_title">
+					<h2>Ingrese los datos:</h2><br>
+					</div>
+					<div class="contenido_centro">
+					<form action="mailto:josueserrano2396@gmail.com"><!--CORREO MIO-->
+						Nombre:
+						<input type="text" name="nombre" id="nombre" required="" /><br>
+						Correo electrónico:
+						<input type="email" name="correo" id="correo" required="" /><br>
+						Asunto:
+						<input type="text" name="asunto" id="asunto" required="" /><br>
+						Descripción:<br>
+						<textarea name="textarea" rows="5" cols="50" style="resize:none"> </textarea><br>
+						<input type="submit" name="enviar_contacto" id="enviar_contacto" value="Enviar" style="width:120px; height:40px;"/>
+						<input type="reset" name="limpiar_contacto" id="limpiar_contacto" value="Limpiar" style="width:120px; height:40px;"/>
+					</form>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div id="footer">
+			Todos los derechos reservados. Aula Virtual.
+		</div>
+	</body>
+</html>

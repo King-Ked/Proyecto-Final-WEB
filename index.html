@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Usuario No Registrado</title>
+		<meta name="author" content="César Josué Jacinto Serrano"/>
+		<meta name="keywords" content="CSS, Modelo de caja, Box model"/>
+		<meta name="description" content="Vista de usuarios no registrados a la plataforma"/>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="estilos.css">
+	</head>
+	<body>
+		<div id="principal">
+			<div id="header">
+				<h1>Usuario No Registrado</h1>
+			</div>
+			<div id="nav">
+				<ul class="menu">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="usuarioNR/unr_acercade.html">Acerca de...</a></li>
+					<li><a href="usuarioNR/preguntasfrecuentes.php">Preguntas frecuentes</a></li>
+					<li><a href="usuarioNR/unr_contacto.html">Contacto</a></li>
+				</ul>
+			</div>
+			<div id="contenido">
+				<div class="contenedorU">
+				
+					<h1><center>¡Bienvenido!</center></h1><br>
+					<p>Este es un espacio virtual donde podrás aprender o reforzar tus conocimientos sobre matemáticas de nivel escolar
+					primaria. Aquí se te presentará diversos contenidos para que puedas estudiarlos con detenimiento, además de varios cuestionarios
+					y ejercicios para que pongas en práctica lo aprendido, finalmente, si quieres poner a prueba tu aprendizaje, contamos con evaluaciones
+					que llevarán el registro de tu progreso.
+					</p>
+					<p>Profesores con excelente curriculum estarán al tanto, en caso de tener dudas muy puntuales en las que se necesite el apoyo de un experto.</p>
+					<br>
+					<p>¡No lo pienses más y registrate!</p>
+				
+				</div>
+				<div id="aside">
+					<h3>Inicio de sesión</h3>
+					<form name="inicioSesion" action="loguear.php" method="POST"><br><br>
+						Usuario:<br>
+						<input type="text" name="usuario" id="usuario" required=""/><br><br>
+						Contraseña:<br>
+						<input type="password" name="clave" id="clave" required="" /><br><br>
+						Tipo de usuario:<br>
+						<select name="tipo_usuario" id="tipo_usuario">
+							<option value="Selecciona una opción">Selecciona una opción</option>
+							<option value="Administrador">Administrador</option>
+							<option value="Profesor">Profesor</option>
+							<option value="Alumno">Alumno</option>
+						</select>
+						<br><br>
+						<input type="submit" name="enviar" id="enviar" value="Iniciar sesión"/>
+					</form>
+					
+					<br><br>
+					<a style="color:white;" href="registro.html">Registrarse</a>
+					<br><br><a style="color:white;" href="usuarioNR/recuperar_contraseña.php">¿Olvidó la contraseña?</a>
+				</div>
+			</div>
+			
+		</div>
+		<div id="footer">
+			Todos los derechos reservados. Aula Virtual.
+		</div>
+	</body>
+</html>
